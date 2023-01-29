@@ -24,10 +24,10 @@ Validate the HTML and CSS code.
 ## Step 6:
 Publish the website in the given URL.
 
-
 ## PROGRAM :
 ```
 calc.html
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -86,6 +86,7 @@ calc.html
 </html>
 
 index.js
+
 let screen = document.getElementById('screen');
 buttons = document.querySelectorAll('button');
 let screenValue = '';
@@ -114,6 +115,7 @@ for (item of buttons) {
 }
 
 style.css
+
 .container{
     text-align: center;
     margin-top:23px
@@ -153,7 +155,9 @@ h1{
     font-size: 28px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 ```
+
 ## OUTPUT:
 ![OUTPUT](./out.png)
 
